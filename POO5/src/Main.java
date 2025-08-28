@@ -4,8 +4,5 @@ public class Main{
         estoque.cadastrarProdutos("nescau", 20, 5.50);
         estoque.cadastrarProdutos("pao", 122323, 2.00);
         estoque.listaProdutos();
-
-
-
     }
 }

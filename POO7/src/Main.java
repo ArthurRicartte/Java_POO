@@ -38,7 +38,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String msg = JOptionPane.showInputDialog("Quantas pessoas vc deseja listar?");
+        String msg = JOptionPane.showInputDialog("Quantas pessoas vc deseja listar?TO NO DELL");
         int quantidade = Integer.parseInt(msg);
         Pessoa[] pessoas = new Pessoa[quantidade];
 

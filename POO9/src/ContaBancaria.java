@@ -2,6 +2,7 @@ public abstract class ContaBancaria {
     private String titular;
     protected double saldo;
 
+    //Construtor da classe:
     public ContaBancaria(String titular, double saldo){
         this.titular = titular;
         this.saldo = saldo;
@@ -24,6 +25,8 @@ public abstract class ContaBancaria {
         return this.saldo;
     }
 
-    public abstract void depositar(double valor);
-    public abstract void sacar(double valor);
+    //Metodos abstratos
+    public abstract boolean depositar(double valor);
+    public abstract boolean sacar(double valor);
+    public abstract void exibirInfo();
 }

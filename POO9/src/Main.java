@@ -7,10 +7,12 @@ public class Main {
         cliente1.depositar(100);
         cliente1.sacar(4000);
 
-        cliente2.depositar(1000);
-        cliente2.sacar(9000);
+        cliente2.sacar(1000);
+        cliente2.depositar(-1212);
 
-        cliente3.sacar(12);
+        cliente3.sacar(1200);
+        cliente3.depositar(0);
+        cliente3.depositar(1200);
 
     }
 }
